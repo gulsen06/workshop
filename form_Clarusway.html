@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="result.html">Clarusway Survey Form</form>
+    <h1>Clarusway Survey Form</h1>
+    <p>Thank you for taking the time to help us improve the platform</p>
+    <label for="name">Name</label><br />
+    <input
+      type="text"
+      id="name"
+      name="Name"
+      placeholder="enter your  name"
+    /><br />
+
+    <label for="surname">Surname</label><br />
+    <input
+      type="text"
+      id="surname"
+      name="Surname"
+      placeholder="enter your  surname"
+    /><br /><br />
+    <label for="email">Email</label><br />
+    <input
+      type="email"
+      name="Email"
+      id="email"
+      placeholder="user@clarusway.com"
+    />
+
+    <p>Which option best describes your current role?</p>
+    <select name="Roles" id="">
+      <option value="" selected disabled>Select current role</option>
+      <option value="Student">Student</option>
+      <option value="teacher">Teacher</option>
+      <option value="Full time JoB">Full time JoB</option>
+      <option value="Part Time JoB">Part Time JoB</option>
+      <option value="Full time Learner">Full time Learner</option>
+      <option value="Prefer not to say">Prefer not to say</option>
+    </select>
+    <p>Would you recommend Clarusway to a friend?</p>
+
+    <input type="radio" name="Recommend" id="definitely" value="Recommend" />
+    <label for="definitely">Definitely, Yes</label>
+
+    <br /><br /><br />
+    <input type="submit" value="Submit" />
+    <input type="reset" value="Reset" />
+  </body>
+</html>
