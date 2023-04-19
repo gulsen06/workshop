@@ -1,0 +1,73 @@
+body {
+  background-color: blanchedalmond;
+}
+
+.kapsa {
+  width: 900px;
+  margin: 20px auto;
+  border: 2px solid blue;
+}
+
+.header {
+  padding: 30px;
+}
+.header h2 {
+  background-color: cadetblue;
+  width: 480px;
+  border: 2px solid orange;
+  border-radius: 10px;
+  color: white;
+  padding: 5px 20px;
+}
+.ust_menu {
+  background-color: aquamarine;
+  height: 40px;
+}
+.ust_menu ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.ust_menu ul li {
+  float: left;
+}
+.ust_menu ul li a {
+  display: block;
+  height: 40px;
+  width: 150px;
+  text-align: center;
+  line-height: 40px;
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+}
+.ust_menu ul li a:hover {
+  color: brown;
+}
+.ara {
+  height: 20px;
+  line-height: 20px;
+  float: right;
+  margin: 10px;
+}
+.ara button {
+  width: 60px;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+}
+.sol_taraf {
+  width: 600px;
+  line-height: 30px;
+  text-align: justify;
+}
+.sol_taraf h2 {
+  width: 600px;
+  border-bottom: 2px dashed black;
+  padding-left: 20px;
+}
+.sol_taraf img {
+  height: 300px;
+  width: 300px;
+  float: left;
+}
