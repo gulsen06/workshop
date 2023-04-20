@@ -1,0 +1,45 @@
+.in {
+  display: inline-block;
+  width: 150px;
+  margin: 10px;
+}
+form {
+  background: rgb(29, 147, 172);
+  background: linear-gradient(
+    357deg,
+    rgba(29, 147, 172, 0.6811099439775911) 0%,
+    rgba(253, 188, 45, 0.6615021008403361) 100%
+  );
+  width: 400px;
+  height: 900px;
+  padding: 30px;
+  border-radius: 30px;
+  margin: auto;
+}
+.rows {
+  display: inline-block;
+  width: 150px;
+}
+.rows2 {
+  display: inline-block;
+  width: 175px;
+}
+.file {
+  width: 350px;
+}
+.country {
+  width: 175;
+}
+textarea {
+  resize: none;
+}
+input {
+  border-radius: 5px;
+  border: none;
+  height: 20px;
+}
+h1 {
+  text-align: center;
+  margin-left: -40;
+  color: white;
+}
