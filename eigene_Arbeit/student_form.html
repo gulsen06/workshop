@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="student_form.css" />
+    <title>REGISTRATION FORM</title>
+  </head>
+  <body>
+    <div class="head">
+      <h1>Membership</h1>
+    </div>
+    <div class="contend">
+      <form action="result.html" method="get">
+        <h2 class="baslik">Registration Form</h2>
+        <label class="in" for="name">Student Name</label><br />
+        <input type="text" name="Name" id="name" placeholder="Student name" />
+        <br />
+        <br />
+        <label class="in" for="adress">Adress</label><br />
+        <textarea
+          name="adress"
+          id="adress"
+          cols="30"
+          rows="5"
+          placeholder="Enter adress here"
+        ></textarea>
+        <br />
+        <br />
+        <div class="contend1">
+          <label class="in" for="gender">Gender:</label>
+          <input type="radio" name="gender" id="gender" value="male" />
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="gender" value="female" />
+          <label for="female">Female</label>
+        </div>
+        <br />
+        <div class="contend2">
+          <label for="dept">Deoartment</label>
+          <select name="dept" id="dept">
+            <option value="Select" selected disabled>Select Department</option>
+            <option value="Computer">Computer</option>
+            <option value="Mechanical">Mechanical</option>
+            <option value="Elecktronics">Elecktronics</option>
+          </select>
+          <label for="year">Year</label>
+          <select name="year" id="year">
+            <option value="Select" selected disabled>Select year</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+        </div>
+        <div class="contend3">
+          <h3>Interested Post:</h3>
+          <input type="checkbox" name="event maneger" id="event maneger" />
+          <label for="event maneger">Event Maneger</label>
+          <input
+            type="checkbox"
+            name="sports secretary"
+            id="sports secretary"
+          />
+          <label for="discpline">Discpline Komite</label>
+          <input type="checkbox" name="Discplinen Komite" id="discpline" />
+          <label for="sports secretary">Sports Secretary</label>
+        </div>
+        <br /><br />
+        <div class="contend4">
+          <input type="submit" name="submit" value="Register" />
+          <input type="reset" name="reset" value="cancel" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
