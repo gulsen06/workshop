@@ -11,4 +11,27 @@
   box-shadow: 10px 10px blue;
   width: 450px;
   margin: auto;
+  font-family: sans-serif;
 }
+.in {
+  font-weight: bold;
+}
+textarea {
+  resize: none;
+}
+.contend input[type="reset"] {
+  background-color: white;
+  border: 2px solid blue;
+  border-radius: 20px;
+}
+.contend input[type="reset"]:hover{
+  color: aqua;
+}
+contend input[type="submit"]:hover{
+  color: aqua;
+}
+
+.contend input[type="submit"] {
+  background-color: white;
+  border: 2px solid blue;
+  border-radius: 20px;
