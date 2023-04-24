@@ -1,0 +1,33 @@
+body {
+  background-color: hsl(129, 26%, 95%);
+  display: inline;
+  width: 150px;
+  height: 500px;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+form {
+  background-color: rgb(165, 236, 107);
+  padding: 30px;
+  width: 600px;
+}
+.in {
+  display: inline-block;
+  width: 200px;
+  margin: 10px;
+}
+.rahmen {
+  /* border: 1px solid white; */
+  margin: 5px;
+  border-radius: 15px;
+  background-color: aquamarine;
+}
+.rahmen li {
+  display: inline;
+}
+
+#adress {
+  resize: none;
+  width: 50%;
+  height: 2rem;
+}

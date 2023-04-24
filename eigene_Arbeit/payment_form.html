@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="paymen_form.css" />
+    <title>PAYMENT_FORM</title>
+  </head>
+  <body>
+    <form action="result.html" style="margin: auto">
+      <fieldset class="inhalt">
+        <legend>Your Details</legend>
+        <ol>
+          <li class="rahmen">
+            <label class="in" for="name">Name</label>
+            <input
+              placeholder="First and Last name"
+              type="text"
+              id="name"
+              name="name"
+            />
+          </li>
+          <li class="rahmen">
+            <label class="in" for="email">Email</label>
+            <input
+              placeholder="example@gmail.com"
+              type="email"
+              id="email"
+              name="email"
+            />
+          </li>
+          <li class="rahmen">
+            <label class="in" for="phone">Phone</label>
+            <input
+              type="tel"
+              id="phone"
+              name="name"
+              placeholder="Eg. +491766321478"
+            />
+          </li>
+        </ol>
+      </fieldset>
+      <fieldset>
+        <legend>Delivery adress</legend>
+        <ol>
+          <li class="rahmen">
+            <label class="in" for="adress">Adress</label>
+            <textarea name="adress" id="adress" cols="15" rows="5"></textarea>
+          </li>
+          <li class="rahmen">
+            <label class="in" for="postcode">Post Code</label>
+            <input type="text" name="postcode" id="postcode" />
+          </li>
+          <li class="rahmen">
+            <label class="in" for="country">Country</label>
+            <input type="text" name="country" id="country" />
+          </li>
+        </ol>
+      </fieldset>
+      <fieldset>
+        <legend>Card details</legend>
+        <ol>
+          <li>
+            <fieldset class="tercih">
+              <legend>Card type</legend>
+              <ol class="rahmen">
+                <li>
+                  <input type="radio" id="visa" name="cardType" value="Visa" />
+                  <label for="visa">Visa</label>
+                </li>
+                <li>
+                  <input type="radio" id="amex" name="cardType" value="Amex" />
+                  <label for="amex">Amex</label>
+                </li>
+                <li>
+                  <input
+                    type="radio"
+                    id="masterCard"
+                    name="cardType"
+                    value="MasterCard"
+                  />
+                  <label for="masterCard">MasterCard</label>
+                </li>
+              </ol>
+            </fieldset>
+          </li>
+          <li class="rahmen">
+            <label class="in" for="cardNum">Card Number</label>
+            <input type="number" name="cardNum" id="cardNum" />
+          </li>
+          <li class="rahmen">
+            <label class="in" for="secure">Security</label>
+            <input type="number" name="secure" id="secure" />
+          </li>
+        </ol>
+      </fieldset>
+      <fieldset>
+        <button type="submit">Buy it!</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
