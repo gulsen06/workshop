@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+form {
+  background-color: aqua;
+  width: 500px;
+  margin: auto;
+  padding: 70px;
+}
+.text {
+  background-color: beige;
+}
+img {
+  height: 100px;
+  margin-top: 10px;
+  text-align: center;
+  border-radius: 20px;
+  border: 5px solid aqua;
+}
+.container {
+  width: 500px;
+  display: inline-block;
+  border: 2px solid transparent;
+  padding: 70x;
+}
+.link img {
+  height: 30px;
+}
