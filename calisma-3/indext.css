@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin: auto;
+  padding: 20px;
+  background-color: lavender;
+  width: 600px;
+  height: 700px;
+}
+.headler {
+  text-align: center;
+}
+.headler img {
+  width: 150px;
+  padding: 10px;
+}
+.p {
+  margin: auto;
+  padding: 20px;
+  width: 400px;
+  height: 300px;
+  background-color: violet;
+  line-height: 1.6;
+}
+.cizgili {
+  border-left: 3px solid rgb(173, 137, 37);
+  height: 20px;
+  color: burlywood;
+}
+.button {
+  padding: 20px;
+  text-align: center;
+}
+button {
+  background-color: bisque;
+  border-radius: 15px;
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #008cba;
+  color: white;
+}
